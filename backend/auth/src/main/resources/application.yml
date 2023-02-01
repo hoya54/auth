@@ -24,7 +24,7 @@ spring:
         format_sql: true
 
   redis:
-    host: localhost
+    host: i8a803.p.ssafy.io
     port: 6379
 
   security:
