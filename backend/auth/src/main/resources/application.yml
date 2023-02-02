@@ -55,7 +55,7 @@ spring:
           clientSecret : 4ixTRzzbkMmpshh87r5EL3FqegefB3BF
           clientAuthenticationMethod: post
           authorizationGrantType: authorization_code
-          redirectUri: "https://i8a803.p.ssafy.io/oauth2/callback/kakao"
+          redirectUri: "https://i8a803.p.ssafy.io/ji/oauth2/callback/kakao"
           scope:
             - profile_nickname
 #            - profile_image
