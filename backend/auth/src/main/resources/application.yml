@@ -1,6 +1,6 @@
 ###########테스트를 위해 설정 port : 8081 #############
 server:
-  port: 8000
+  port: 8007
   servlet:
     encoding:
       charset: UTF-8
