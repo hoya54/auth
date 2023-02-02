@@ -73,23 +73,23 @@ public class SecurityConfig {
                     .disable()
 
                 // 접근제한 설정을 위한 필터
-                .authorizeRequests()
-                    .antMatchers("/",
-                        "/error",
-                        "/favicon.ico",
-                        "/**/*.png",
-                        "/**/*.gif",
-                        "/**/*.svg",
-                        "/**/*.jpg",
-                        "/**/*.html",
-                        "/**/*.css",
-                        "/**/*.js")
-                        .permitAll()
-                    .antMatchers("/api/auth/**", "/api/oauth2/**")
-                        .permitAll()
-                    .anyRequest()
-                        .authenticated()
-                    .and()
+//                 .authorizeRequests()
+//                     .antMatchers("/",
+//                         "/error",
+//                         "/favicon.ico",
+//                         "/**/*.png",
+//                         "/**/*.gif",
+//                         "/**/*.svg",
+//                         "/**/*.jpg",
+//                         "/**/*.html",
+//                         "/**/*.css",
+//                         "/**/*.js")
+//                         .permitAll()
+//                     .antMatchers("/api/auth/**", "/api/oauth2/**")
+//                         .permitAll()
+//                     .anyRequest()
+//                         .authenticated()
+//                     .and()
 
                 // OAuth2 로그인을 위한 필터
                 .oauth2Login()
