@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/ji")
 public class IndexController {
-    @GetMapping("/sun")
+    @GetMapping("")
     public String checkDuplicateId() {
         return "<h1>Hello Auth Server Main Page</h1>";
     }
