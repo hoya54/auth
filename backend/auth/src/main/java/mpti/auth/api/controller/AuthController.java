@@ -32,7 +32,7 @@ import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/auth")
+@RequestMapping("/ji/j")
 public class AuthController {
 
     private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
